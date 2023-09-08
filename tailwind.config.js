@@ -40,6 +40,15 @@ module.exports = {
         200: "12.5rem",
       },
     },
+    fontSize: {
+      sm: "0.875rem",
+      base: "1rem",
+      md: "1.125rem",
+      lg: "1.25rem",
+      xl: "1.5rem",
+      "2xl": "1.75rem",
+      "3xl": "2.5rem",
+    },
   },
   plugins: [],
 };
