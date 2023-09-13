@@ -3,6 +3,7 @@ module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
     colors: {
+      white: "#FFF",
       black: "#000",
       blue: "#2639ED",
       "blue-light": "#F4F9FF",
@@ -11,7 +12,7 @@ module.exports = {
       grey: "#757575",
       "grey-dark": "#565656",
       "grey-light": "#757575",
-      yellow: "FFF5DB",
+      yellow: "#FFF5DB",
       "yellow-light": "#FFF7E3",
       pink: "#FF007A",
       "pink-light": "#FFF2F8",
@@ -29,6 +30,7 @@ module.exports = {
         60: "3.75rem",
         70: "4.375rem",
         80: "5rem",
+        100: "6.25rem",
         120: "7.5rem",
       },
       borderRadius: {
