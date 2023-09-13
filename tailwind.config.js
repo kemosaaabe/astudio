@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     colors: {
       white: "#FFF",
+      "white-light": "#F2F2F2",
       black: "#000",
       blue: "#2639ED",
       "blue-light": "#F4F9FF",
@@ -26,20 +27,29 @@ module.exports = {
         16: "1rem",
         20: "1.25rem",
         30: "1.875rem",
+        32: "2rem",
         40: "2.5rem",
         60: "3.75rem",
         70: "4.375rem",
         80: "5rem",
         100: "6.25rem",
         120: "7.5rem",
+        180: "11.25rem",
+        300: "18.75rem",
+        400: "25rem",
       },
       borderRadius: {
+        20: "1.25rem",
         32: "2rem",
         40: "2.5rem",
         60: "3.75rem",
         75: "4.688rem",
         100: "6.25rem",
+        150: "9.375rem",
         200: "12.5rem",
+      },
+      boxShadow: {
+        md: "0px 10px 50px 0px rgba(0, 0, 0, 0.05)",
       },
     },
     fontSize: {
