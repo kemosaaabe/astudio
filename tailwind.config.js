@@ -50,6 +50,7 @@ module.exports = {
       },
       boxShadow: {
         md: "0px 10px 50px 0px rgba(0, 0, 0, 0.05)",
+        lg: "10px 20px 50px 0px rgba(0, 0, 0, 0.15)",
       },
     },
     fontSize: {
